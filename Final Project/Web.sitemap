@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    
+  <siteMapNode url="Home.aspx" title="Home"  description="Home page">
+
+      <siteMapNode url="System.aspx" title="Systems"  description="Gaming systems">
+        <siteMapNode url="PS3.aspx" title="PS3" description="PS3 games"/>
+        <siteMapNode url="Wii.aspx" title="Wii" description="Wii games"/>
+        <siteMapNode url="XBOX360.aspx" title="XBOX360" description="XBOX360 games"/>
+        <siteMapNode url="3DS.aspx" title="3DS" description="3DS games"/>
+        <siteMapNode url="PSP.aspx" title="PSP" description="PSP games"/>
+      </siteMapNode>
+
+      <siteMapNode url="Help.aspx" title="Help"  description="Need help?">
+        <siteMapNode url="FAQs.aspx" title="FAQs" description="Frequently asked questions"/>
+        <siteMapNode url="Contact.aspx" title="Contact Us" description="Contact information of our company"/>
+      </siteMapNode>
+
+      <siteMapNode url="Map.aspx" title="SiteMap" description="Sitemap of the website"/>
+
+      <siteMapNode url="About.aspx" title="About" description="About Us"/>
+
+  </siteMapNode>
+</siteMap>

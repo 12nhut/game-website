@@ -1,0 +1,19 @@
+﻿#table
+{
+	 border-color: DarkCyan;
+	 border-style: groove;
+}
+.SystemStyle
+{
+	text-align: justify;
+	border-color: DarkCyan;
+	border-style: solid;
+}
+.ViewGameStyle
+{
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	border-color: DarkCyan;
+	border-style: solid;
+}

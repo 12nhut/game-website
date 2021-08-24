@@ -1,0 +1,30 @@
+﻿h3
+{
+	color: SeaGreen;
+	font-size: x-large;
+	font-weight: bold;
+	font-family: Constantia;
+	text-align: left;
+}
+p
+{
+	font-family: @DFKai-SB;
+	font-size: large;
+    font-weight: 100;
+	color: DarkBlue;
+}
+#ContactTable
+{
+	border-color: DarkKhaki;
+	border-style:ridge;
+}
+.Contact
+{
+	border-color: DarkKhaki;
+	border-style:ridge;
+}
+.ContactInfo
+{
+	border-color: DarkKhaki;
+	border-style:ridge;
+}
