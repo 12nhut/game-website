@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 
+   Oahu Fever - Contact Page
+   Author: Constance Emory & Nhuan Thi
+   Date Created: March 14, 2012
+   Last Modified: April 1, 2012
+
+   Filename: contact.htm
+   Supporting files: logo2.gif, contact.gif
+   Preferred Browser: Google Chrome
+   
+-->
+
+<!--The title for the website-->
+<title>Contact Us</title>
+<link href="print.css" rel="stylesheet" type="text/css" media="print, projection" />
+<link href="hawaiifever.css" rel="stylesheet" type="text/css" media="screen, tv, tty" />
+<link href="links.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!--Logo Image Map-->
+<img src="logo2.gif" alt="logo" usemap="#logomap" id="logo" style="border-width: 0" />
+<map id="logomap" name="logomap">
+<area shape="rect" coords="5,5,413,69" href="home.htm" alt="Home" />
+<area shape="rect" coords="418,68,488,97" href="guide.htm" alt="Guide" />
+<area shape="rect" coords="504,68,576,99" href="help.htm" alt="Help" />
+</map>
+
+<!--Vertical Navigation Links-->
+	<div id="links" class="noPrint">
+		<ul>
+			<li><a href="home.htm">Home</a></li>
+			
+			<li class="newGroup"><a href="guide.htm">Guide</a>
+				<ul>
+					<li><a href="food.htm">Local Food</a></li>
+					<li><a href="activities.htm">Activities</a></li>
+					<li><a href="beaches.htm">Beaches</a></li>
+					<li><a href="shopping.htm">Shopping</a></li>
+					<li><a href="hotels.htm">Hotels</a></li>
+					<li><a href="dining.htm">Dining</a></li>
+					<li><a href="transportation.htm">Transportation</a></li>
+				</ul>
+			</li>
+			
+			<li class="newGroup"><a href="help.htm">Help</a>
+				<ul>
+					<li><a href="about.htm">About Us</a></li>
+					<li><a href="faqs.htm">FAQs</a></li>
+					<li><a href="contact.htm">Contact Us</a></li>
+				</ul>
+			</li>
+			
+			<li class="newGroup"><a href="member.htm">Member Registration</a></li>
+		</ul>
+	</div>
+	
+	</br>
+	<img src="contact.gif" alt="Contact Logo" style="width: 200px">
+
+<!--JAVASCRIPT used for courtesy of the visitor-->	
+Today's date is: <SCRIPT language="JavaScript">
+<!-- Script courtesy of http://www.web-source.net
+var today_date= new Date()
+var month=today_date.getMonth()+1
+var today=today_date.getDate()
+var year=today_date.getFullYear()
+//document.write("Today's date is: ")
+document.write(month+"/"+today+"/"+year)
+//--> </SCRIPT>
+
+	<!--First paragraph on Contact Us page-->
+	<h3>If you have any other questions or comments regarding our company, please feel free to contact us via:</h3>
+	<table class="details" border="2" cellspacing="3" cellpadding="3" style="width: 900px;">
+		<tbody>
+		<tr>
+			<!--Oahu Fever information-->
+			<th id="hours">Phone:</th>
+			<td>1-800-123-4567<br />
+				Weeksday 8am-5pm Pacific Time
+			</td>
+		</tr>
+		<tr>
+			<th id="email">Email:</th>
+			<td><a href="mailto:nhuan@hawaii.edu">nhuan@hawaii.edu</a> or
+				<a href="mailto:emory@hawaii.edu">emory@hawaii.edu</a>
+			</td>
+		</tr>
+		<tr>
+			<th id="address">Address:</th>
+			<td>Kapiolani Community College<br />
+				4303 Diamond Head Road<br />
+				Honolulu, HI 96816-4421
+			</td>
+		</tr>
+	</table>
+	<br/>
+	<!--footer info-->
+	<footer style="text-align: center; font: normal small-caps 0.8em sans-serif; border-top: 0.5em double; 
+		padding-top: 1em; margin-top: 22em;">
+		last modified: March 31, 2012 &nbsp;&#9728;&nbsp;
+		Created by: Constance Emory and Nhuan Thi
+	</footer>
+</body>
+</html>

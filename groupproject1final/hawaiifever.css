@@ -1,0 +1,103 @@
+/*
+   Oahu Fever Stylesheet
+   Author: Constance Emory & Nhuan Thi
+   Date Created: March 14, 2012
+   Last Modified: April 1, 2012  
+
+   Filename: hawaiifever.css
+   Supporting Files: none
+
+*/
+
+/*Logo*/
+#logo	{margin-left:-13em;}
+
+/* Background */
+body{background-image:url('background.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	font-family: arial narrow;
+	background-attachment:fixed;
+	background-color:darkgreen;
+	}
+	
+/*Used for floating images*/
+img.floatLeft { 
+    float: left; 
+    margin: 4px; 
+}
+img.floatRight { 
+    float: right; 
+    margin: 4px; 
+}
+
+/*Drop Cap first letter on About Us page*/
+#firstp:first-letter {float: left; font-size: 300%; line-height: 0.8}
+
+/*Kayaking title margin*/
+#kayakingtitle {margin-left: 8.7em}
+
+/*Kayaking paragraph margin*/
+#kayaking {margin-left: 13em}
+
+/*Snorkeling image on Activites page*/
+#activities5 {margin-left: 13em}
+
+/*Poi paragraph margin*/
+#poi {margin-left: 13em}
+
+/*Haupia image on Food page*/
+#food5 {margin-left: 13em}
+
+/*North Shore title margin*/
+#northshoretitle {margin-left: 8.7em}
+
+/*North Shore paragraph margin*/
+#northshore {margin-left: 13em}
+
+/*Bellows Beach Park image on Beaches page*/
+#beach5 {margin-left: 13em}
+
+/*Trump Internation Hotel title margin*/
+#trumptitle {margin-left: 8.7em}
+
+/*Trump Internation Hotel paragraph margin*/
+#trumphotel {margin-left: 13em}
+
+/*Halekulani image margin*/
+#hotel5 {margin-left: 13em}
+
+/*Drop Cap*/
+#firstp:first-letter {float: left; font-size: 400%; line-height: 0.8}
+
+/*Used for Rounded Box*/
+#right_col{width: 200px; position: absolute; left: 500px; top: 315px}
+
+/*Homepage list*/
+#listmargin {margin-left: 32em}
+
+/*Homepage paragraph*/
+#firstparagraph {margin-left: 32em}
+
+/*Titles on each page*/
+#title {margin-left: 13.3em}
+
+/*Transportation Page*/
+#leftmargin {margin-left: 12em}
+
+/*Taxi title*/
+#taxi {margin-left: 7.8em}
+
+/*Hawaii Car Rentals title*/
+#hawaiiCarRentals {margin-left: 7.8em}
+
+/*Polynesian Adventure Tours title*/
+#polynesianAdventureTours {margin-left: 7.8em}
+
+/*Polynesian Adventure Tours image*/
+#polynesianadventuretours {margin-left: 12em}
+
+
+
+	
+	

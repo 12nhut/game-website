@@ -1,0 +1,36 @@
+/*
+   Oahu Fever Links Stylesheet
+   Author: Constance Emory & Nhuan Thi
+   Date Created: March 14, 2012
+   Last Modified: April 1, 2012  
+
+   Filename: links.css
+   Supporting Files: none
+   
+*/
+
+#info	{margin-left: 20px;}
+
+#links             			{float: left; background-color: light blue; border-style: inset; width: 200px; height: 650px; margin-top: 100px;}
+#links ul 				{list-style-type: none; margin-left: 15px; padding-left: 0px;}
+#links li.newGroup		{margin-top: 15px;}
+#links a:link 			{color: black; text-decoration: none;}
+#links a:visited 		{color: blue; text-decoration: none;}
+#links a:hover 			{color:purple; text-decoration: underline;}
+#links a:active 			{text-decoration: none;}
+
+fieldset					{margin-bottom: 10px; padding: 10px; background-color: rgb(205,201,201);}
+label.blockLabel 		{display: block; position: relative; margin: 12px 0px;}
+label.blockLabel input 	{position: absolute; left: 150px;}
+label.indentLabel		{margin-left: 30px;}
+
+/*Membership page*/
+#memberForm span, #membershipContent p span			{color: red;}	
+#memberForm											{width: 590px; float: left; margin-left: 10px; margin-bottom: 10px; font-size: 16px}
+#membershipContent h1        							{font-size: 24px; margin: 5px 0px 0px 220px; font-weight: bold}
+#membershipContent p         							{margin: 0px 0px 2px 530px; padding: 0px;}
+
+#firstName, #lastName, #street	{width: 25em;}
+#phone, #city					{width: 10em;}
+#state							{width: 10em;}
+#zip							{width: 7em;}

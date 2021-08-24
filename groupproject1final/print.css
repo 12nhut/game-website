@@ -1,0 +1,28 @@
+/*
+   Oahu Fever Print Stylesheet
+   Author: Constance Emory & Nhuan Thi
+   Date Created: March 14, 2012
+   Last Modified: April 1, 2012  
+
+   Filename: print.css
+   Supporting Files: none
+
+*/
+
+/*Class for text we do not want to print*/
+.noPrint { 
+display: none; 
+}
+
+/*Properties of the body that will be printed */
+body { 
+font-family: arial;  
+font-size: 14px;  
+color: #000000;  
+background-color: #FFFFFF;
+}
+
+
+
+
+
